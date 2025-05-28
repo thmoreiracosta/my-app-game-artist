@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwindcss/forms;
+
+
+
+.select {
+  @apply border p-2 rounded w-full;
+}
+.textarea {
+  @apply border p-2 rounded;
+}
+.btn {
+  @apply bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600;
+}
